@@ -1,9 +1,9 @@
 class Pbj < Formula
   desc "Enriched macOS clipboard copy and paste commands"
   homepage "https://github.com/the-inconvenience-store/pbj"
-  url "https://github.com/the-inconvenience-store/pbj/releases/download/v0.1.0/pbj_0.1.0_source.tar.gz"
-  version "0.1.0"
-  sha256 "f436db1cbd53352d761189c866455bccbdb0e0e3b3a18c80f2e13da8e7e6fd35"
+  url "https://github.com/the-inconvenience-store/pbj/releases/download/v0.2.0/pbj_0.2.0_source.tar.gz"
+  version "0.2.0"
+  sha256 "3afb913a1ee9fff02ad0746cbf83282d49cca6d3bd9798967a9190565dafe3c7"
 
   depends_on "go" => :build
   depends_on macos: :ventura
